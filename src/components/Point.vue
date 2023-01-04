@@ -3,7 +3,7 @@ import { ref } from 'vue'
 
 let props = defineProps(['point'])
 
-function click(event) {
+function click(event: any) {
     console.log(props.point)
 }
 </script>
